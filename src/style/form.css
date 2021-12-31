@@ -1,0 +1,92 @@
+.container-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#160b52;
+    width:50%;
+    height:35rem;
+    box-sizing: border-box; 
+}
+
+.contents-register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    float: left;
+    height:35rem;
+    text-align: center;
+    background-color: #291a80;
+    color:#ffff;
+    box-sizing: border-box;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.msg-support{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 80%;
+}
+
+.person{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2.5rem;
+    border-radius: 50%;
+    margin:0px 10px 10px 0px;
+} 
+
+.person-perfil1{
+    background-image: url(../assets/img-perfil/albert-dera-ILip77SbmOE-unsplash.jpg);
+}
+
+.person-perfil2{
+    background-image: url(../assets/img-perfil/hassan-khan-EGVccebWodM-unsplash.jpg);
+}
+
+.person-perfil3{
+    background-image: url(../assets/img-perfil/huston-wilson-WyDr1KFS23Y-unsplash.jpg);
+}
+
+.person-perfil4{
+    background-image: url(../assets/img-perfil/jurica-koletic-7YVZYZeITc8-unsplash.jpg);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.usuario-name{
+    display: flex;
+    width: 100%;
+}
+
+.bar{
+    margin:5px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    box-shadow: 0 0px 1px 1px #533fc4;
+}
+
+.politic{
+    color: black;
+    list-style: outside;
+}
+
+@media only screen and (max-width:900px) {
+
+    .container-register{
+        width: 100%;
+    }
+
+    .contents-register{
+        width:100%;
+        font-size: 15px;
+        border-radius: 0px 0% 0% 0px;
+    }
+}
