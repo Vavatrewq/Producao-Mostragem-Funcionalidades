@@ -15,9 +15,26 @@ ul {
 
 .btn-links:hover{
   width:90%;
-  height:10px;
-  border-bottom: 0.5px inset;
-  }
+  border-bottom: 0.1px inset;
+}
+
+.btn-register-menu{
+  color:#ffff;
+  background-color: #2b1c83;
+  border: none;
+  border-radius: 10px;
+  transition: 500ms;
+  width:80%;
+  padding: 10px 0px 10px 0px;
+  box-sizing: border-box;
+  margin: auto;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.btn-register-menu:hover{
+  background-color: #4f35e7;
+}
 
 #logo {
   font-size: 1.5rem;
@@ -44,7 +61,8 @@ ul {
 #menu {
   display: flex;
   list-style: none;
-  gap: 0.5rem;
+  align-items: center;
+  gap: 1rem;
 }
 
 #menu a {
@@ -100,6 +118,10 @@ ul {
     border: none;
     background: none;
     cursor: pointer;
+  }
+
+  .btn-register-menu{
+    margin-top: 25px;
   }
 
   #hamburger {
