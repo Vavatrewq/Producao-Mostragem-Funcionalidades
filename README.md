@@ -1,4 +1,4 @@
-# Producao-Mostragem-Funcionalidades 
+# Producao-Mostragem-Funcionalidades.
 ## Web - Site / Funcionalidades
 
 ### https://producao-mostragem-funcionalidades.vercel.app
